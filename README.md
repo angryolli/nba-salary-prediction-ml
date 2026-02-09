@@ -43,8 +43,3 @@ Can NBA player salaries be predicted accurately using only individual in-game pe
 | Random Forest | $5.69 million | 0.74 |
 
 The Random Forest model significantly outperformed Linear Regression, indicating that NBA salaries are influenced by nonlinear combinations of performance metrics rather than purely linear relationships.
-
-## Conclusion
-
-Random Forest models provide superior predictive performance for NBA salary estimation based on in-game statistics. While Linear Regression offers interpretability, it struggles with nonlinear effects and salary outliers.
-
