@@ -2,6 +2,40 @@
 
 This project investigates whether NBA player salaries can be reliably predicted using individual in-game performance statistics. Using supervised machine learning, we analyze how player roles, scoring, defensive contributions, and playing time relate to compensation in the modern NBA.
 
+## How to Run This Project
+
+Follow these steps to set up a local Python environment, run the notebook, and use the correct kernel.
+
+### 1. Create and activate the virtual environment
+
+From the project root:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 2. Install required packages (including Jupyter + ipykernel)
+
+With the virtual environment activated:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Use the correct kernel for the notebook
+
+- In the **bottom-right status bar** in IDE, click the current Python version.
+- Choose the interpreter inside the project virtualenv, for example:
+  - Select another kerner
+  - Python environments 
+  - .venv (Python ...)    //Recommended
+  - For example `/home/username/nba-salary-prediction-ml/.venv/bin/python`
+
+
+After this, you can run the notebook cells and the project will use your `.venv` with all dependencies installed.
+
+
 ## Research Question
 
 Can NBA player salaries be predicted accurately using only individual in-game performance statistics?
@@ -43,3 +77,5 @@ Can NBA player salaries be predicted accurately using only individual in-game pe
 | Random Forest | $5.69 million | 0.74 |
 
 The Random Forest model significantly outperformed Linear Regression, indicating that NBA salaries are influenced by nonlinear combinations of performance metrics rather than purely linear relationships.
+
+
